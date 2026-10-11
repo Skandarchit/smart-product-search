@@ -1,0 +1,122 @@
+[
+  {
+    "product_id": "P001",
+    "name": "Wireless Headphones",
+    "price": "2499",
+    "category": [
+      "Electronics",
+      "Audio",
+      "Headphones"
+    ]
+  },
+  {
+    "product_id": "P002",
+    "name": "Budget Smartphone",
+    "price": "12999",
+    "category": [
+      "Electronics",
+      "Mobiles",
+      "Smartphones"
+    ]
+  },
+  {
+    "product_id": "P003",
+    "name": "Cotton T Shirt",
+    "price": "599",
+    "category": [
+      "Fashion",
+      "Clothing",
+      "T Shirts"
+    ]
+  },
+  {
+    "product_id": "P004",
+    "name": "Study Laptop",
+    "price": "45999",
+    "category": [
+      "Electronics",
+      "Computers",
+      "Laptops"
+    ]
+  },
+  {
+    "product_id": "P005",
+    "name": "Steel Bottle",
+    "price": "399",
+    "category": [
+      "Home",
+      "Kitchen",
+      "Bottles"
+    ]
+  },
+  {
+    "product_id": "P006",
+    "name": "Running Shoes",
+    "price": "2499",
+    "category": [
+      "Fashion",
+      "Footwear",
+      "Sports Shoes"
+    ]
+  },
+  {
+    "product_id": "P007",
+    "name": "Bluetooth Speaker",
+    "price": "1799",
+    "category": [
+      "Electronics",
+      "Audio",
+      "Speakers"
+    ]
+  },
+  {
+    "product_id": "P008",
+    "name": "Desk Lamp",
+    "price": "899",
+    "category": [
+      "Home",
+      "Lighting",
+      "Desk Lamps"
+    ]
+  },
+  {
+    "product_id": "P009",
+    "name": "Gaming Mouse",
+    "price": "1299",
+    "category": [
+      "Electronics",
+      "Accessories",
+      "Mice"
+    ]
+  },
+  {
+    "product_id": "P010",
+    "name": "Notebook",
+    "price": "99",
+    "category": [
+      "Stationery",
+      "Paper",
+      "Notebooks"
+    ]
+  },
+  {
+    "product_id": "P011",
+    "name": "Frying Pan",
+    "price": "1199",
+    "category": [
+      "Home",
+      "Kitchen",
+      "Cookware"
+    ]
+  },
+  {
+    "product_id": "P012",
+    "name": "Feature Phone",
+    "price": "1599",
+    "category": [
+      "Electronics",
+      "Mobiles",
+      "Feature Phones"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "input_rows": 1000,
+  "input_shape": [
+    1000,
+    8
+  ],
+  "dtypes": {
+    "product_id": "str",
+    "name": "str",
+    "price": "float64",
+    "category": "str",
+    "rating": "float64",
+    "currency": "str",
+    "rating_source": "str",
+    "category_source": "str"
+  },
+  "missing_before": {
+    "product_id": 0,
+    "name": 0,
+    "price": 0,
+    "category": 0,
+    "rating": 0,
+    "currency": 0,
+    "rating_source": 0,
+    "category_source": 0
+  },
+  "clean_rows": 1000,
+  "dropped_rows": 0,
+  "missing_after": {
+    "product_id": 0,
+    "name": 0,
+    "price": 0,
+    "category": 0,
+    "rating": 0,
+    "currency": 0,
+    "rating_source": 0,
+    "category_source": 0
+  }
+}

@@ -1,0 +1,662 @@
+[
+  {
+    "product_id": "X001",
+    "name": "Wireless Headphones Model 01",
+    "price": "2499",
+    "category": [
+      "Electronics",
+      "Audio",
+      "Headphones"
+    ],
+    "rating": 2.5
+  },
+  {
+    "product_id": "X002",
+    "name": "Budget Smartphone Model 02",
+    "price": "12999",
+    "category": [
+      "Electronics",
+      "Mobiles",
+      "Smartphones"
+    ],
+    "rating": 2.6
+  },
+  {
+    "product_id": "X003",
+    "name": "Cotton T Shirt Model 03",
+    "price": "599",
+    "category": [
+      "Fashion",
+      "Clothing",
+      "T Shirts"
+    ],
+    "rating": 2.7
+  },
+  {
+    "product_id": "X004",
+    "name": "Study Laptop Model 04",
+    "price": "45999",
+    "category": [
+      "Electronics",
+      "Computers",
+      "Laptops"
+    ],
+    "rating": 2.8
+  },
+  {
+    "product_id": "X005",
+    "name": "Steel Bottle Model 05",
+    "price": "399",
+    "category": [
+      "Home",
+      "Kitchen",
+      "Bottles"
+    ],
+    "rating": 2.9
+  },
+  {
+    "product_id": "X006",
+    "name": "Running Shoes Model 06",
+    "price": "2499",
+    "category": [
+      "Fashion",
+      "Footwear",
+      "Sports Shoes"
+    ],
+    "rating": 3.0
+  },
+  {
+    "product_id": "X007",
+    "name": "Bluetooth Speaker Model 07",
+    "price": "1799",
+    "category": [
+      "Electronics",
+      "Audio",
+      "Speakers"
+    ],
+    "rating": 3.1
+  },
+  {
+    "product_id": "X008",
+    "name": "Desk Lamp Model 08",
+    "price": "899",
+    "category": [
+      "Home",
+      "Lighting",
+      "Desk Lamps"
+    ],
+    "rating": 3.2
+  },
+  {
+    "product_id": "X009",
+    "name": "Gaming Mouse Model 09",
+    "price": "1299",
+    "category": [
+      "Electronics",
+      "Accessories",
+      "Mice"
+    ],
+    "rating": 3.3
+  },
+  {
+    "product_id": "X010",
+    "name": "Notebook Model 10",
+    "price": "99",
+    "category": [
+      "Stationery",
+      "Paper",
+      "Notebooks"
+    ],
+    "rating": 3.4
+  },
+  {
+    "product_id": "X011",
+    "name": "Frying Pan Model 11",
+    "price": "1199",
+    "category": [
+      "Home",
+      "Kitchen",
+      "Cookware"
+    ],
+    "rating": 3.5
+  },
+  {
+    "product_id": "X012",
+    "name": "Feature Phone Model 12",
+    "price": "1599",
+    "category": [
+      "Electronics",
+      "Mobiles",
+      "Feature Phones"
+    ],
+    "rating": 3.6
+  },
+  {
+    "product_id": "X013",
+    "name": "Wireless Headphones Model 13",
+    "price": "2549",
+    "category": [
+      "Electronics",
+      "Audio",
+      "Headphones"
+    ],
+    "rating": 3.7
+  },
+  {
+    "product_id": "X014",
+    "name": "Budget Smartphone Model 14",
+    "price": "13049",
+    "category": [
+      "Electronics",
+      "Mobiles",
+      "Smartphones"
+    ],
+    "rating": 3.8
+  },
+  {
+    "product_id": "X015",
+    "name": "Cotton T Shirt Model 15",
+    "price": "649",
+    "category": [
+      "Fashion",
+      "Clothing",
+      "T Shirts"
+    ],
+    "rating": 3.9
+  },
+  {
+    "product_id": "X016",
+    "name": "Study Laptop Model 16",
+    "price": "46049",
+    "category": [
+      "Electronics",
+      "Computers",
+      "Laptops"
+    ],
+    "rating": 4.0
+  },
+  {
+    "product_id": "X017",
+    "name": "Steel Bottle Model 17",
+    "price": "449",
+    "category": [
+      "Home",
+      "Kitchen",
+      "Bottles"
+    ],
+    "rating": 4.1
+  },
+  {
+    "product_id": "X018",
+    "name": "Running Shoes Model 18",
+    "price": "2549",
+    "category": [
+      "Fashion",
+      "Footwear",
+      "Sports Shoes"
+    ],
+    "rating": 4.2
+  },
+  {
+    "product_id": "X019",
+    "name": "Bluetooth Speaker Model 19",
+    "price": "1849",
+    "category": [
+      "Electronics",
+      "Audio",
+      "Speakers"
+    ],
+    "rating": 4.3
+  },
+  {
+    "product_id": "X020",
+    "name": "Desk Lamp Model 20",
+    "price": "949",
+    "category": [
+      "Home",
+      "Lighting",
+      "Desk Lamps"
+    ],
+    "rating": 4.4
+  },
+  {
+    "product_id": "X021",
+    "name": "Gaming Mouse Model 21",
+    "price": "1349",
+    "category": [
+      "Electronics",
+      "Accessories",
+      "Mice"
+    ],
+    "rating": 4.5
+  },
+  {
+    "product_id": "X022",
+    "name": "Notebook Model 22",
+    "price": "149",
+    "category": [
+      "Stationery",
+      "Paper",
+      "Notebooks"
+    ],
+    "rating": 4.6
+  },
+  {
+    "product_id": "X023",
+    "name": "Frying Pan Model 23",
+    "price": "1249",
+    "category": [
+      "Home",
+      "Kitchen",
+      "Cookware"
+    ],
+    "rating": 4.7
+  },
+  {
+    "product_id": "X024",
+    "name": "Feature Phone Model 24",
+    "price": "1649",
+    "category": [
+      "Electronics",
+      "Mobiles",
+      "Feature Phones"
+    ],
+    "rating": 4.8
+  },
+  {
+    "product_id": "X025",
+    "name": "Wireless Headphones Model 25",
+    "price": "2599",
+    "category": [
+      "Electronics",
+      "Audio",
+      "Headphones"
+    ],
+    "rating": 4.9
+  },
+  {
+    "product_id": "X026",
+    "name": "Budget Smartphone Model 26",
+    "price": "13099",
+    "category": [
+      "Electronics",
+      "Mobiles",
+      "Smartphones"
+    ],
+    "rating": 5.0
+  },
+  {
+    "product_id": "X027",
+    "name": "Cotton T Shirt Model 27",
+    "price": "699",
+    "category": [
+      "Fashion",
+      "Clothing",
+      "T Shirts"
+    ],
+    "rating": 2.5
+  },
+  {
+    "product_id": "X028",
+    "name": "Study Laptop Model 28",
+    "price": "46099",
+    "category": [
+      "Electronics",
+      "Computers",
+      "Laptops"
+    ],
+    "rating": 2.6
+  },
+  {
+    "product_id": "X029",
+    "name": "Steel Bottle Model 29",
+    "price": "499",
+    "category": [
+      "Home",
+      "Kitchen",
+      "Bottles"
+    ],
+    "rating": 2.7
+  },
+  {
+    "product_id": "X030",
+    "name": "Running Shoes Model 30",
+    "price": "2599",
+    "category": [
+      "Fashion",
+      "Footwear",
+      "Sports Shoes"
+    ],
+    "rating": 2.8
+  },
+  {
+    "product_id": "X031",
+    "name": "Bluetooth Speaker Model 31",
+    "price": "1899",
+    "category": [
+      "Electronics",
+      "Audio",
+      "Speakers"
+    ],
+    "rating": 2.9
+  },
+  {
+    "product_id": "X032",
+    "name": "Desk Lamp Model 32",
+    "price": "999",
+    "category": [
+      "Home",
+      "Lighting",
+      "Desk Lamps"
+    ],
+    "rating": 3.0
+  },
+  {
+    "product_id": "X033",
+    "name": "Gaming Mouse Model 33",
+    "price": "1399",
+    "category": [
+      "Electronics",
+      "Accessories",
+      "Mice"
+    ],
+    "rating": 3.1
+  },
+  {
+    "product_id": "X034",
+    "name": "Notebook Model 34",
+    "price": "199",
+    "category": [
+      "Stationery",
+      "Paper",
+      "Notebooks"
+    ],
+    "rating": 3.2
+  },
+  {
+    "product_id": "X035",
+    "name": "Frying Pan Model 35",
+    "price": "1299",
+    "category": [
+      "Home",
+      "Kitchen",
+      "Cookware"
+    ],
+    "rating": 3.3
+  },
+  {
+    "product_id": "X036",
+    "name": "Feature Phone Model 36",
+    "price": "1699",
+    "category": [
+      "Electronics",
+      "Mobiles",
+      "Feature Phones"
+    ],
+    "rating": 3.4
+  },
+  {
+    "product_id": "X037",
+    "name": "Wireless Headphones Model 37",
+    "price": "2649",
+    "category": [
+      "Electronics",
+      "Audio",
+      "Headphones"
+    ],
+    "rating": 3.5
+  },
+  {
+    "product_id": "X038",
+    "name": "Budget Smartphone Model 38",
+    "price": "13149",
+    "category": [
+      "Electronics",
+      "Mobiles",
+      "Smartphones"
+    ],
+    "rating": 3.6
+  },
+  {
+    "product_id": "X039",
+    "name": "Cotton T Shirt Model 39",
+    "price": "749",
+    "category": [
+      "Fashion",
+      "Clothing",
+      "T Shirts"
+    ],
+    "rating": 3.7
+  },
+  {
+    "product_id": "X040",
+    "name": "Study Laptop Model 40",
+    "price": "46149",
+    "category": [
+      "Electronics",
+      "Computers",
+      "Laptops"
+    ],
+    "rating": 3.8
+  },
+  {
+    "product_id": "X041",
+    "name": "Steel Bottle Model 41",
+    "price": "549",
+    "category": [
+      "Home",
+      "Kitchen",
+      "Bottles"
+    ],
+    "rating": 3.9
+  },
+  {
+    "product_id": "X042",
+    "name": "Running Shoes Model 42",
+    "price": "2649",
+    "category": [
+      "Fashion",
+      "Footwear",
+      "Sports Shoes"
+    ],
+    "rating": 4.0
+  },
+  {
+    "product_id": "X043",
+    "name": "Bluetooth Speaker Model 43",
+    "price": "1949",
+    "category": [
+      "Electronics",
+      "Audio",
+      "Speakers"
+    ],
+    "rating": 4.1
+  },
+  {
+    "product_id": "X044",
+    "name": "Desk Lamp Model 44",
+    "price": "1049",
+    "category": [
+      "Home",
+      "Lighting",
+      "Desk Lamps"
+    ],
+    "rating": 4.2
+  },
+  {
+    "product_id": "X045",
+    "name": "Gaming Mouse Model 45",
+    "price": "1449",
+    "category": [
+      "Electronics",
+      "Accessories",
+      "Mice"
+    ],
+    "rating": 4.3
+  },
+  {
+    "product_id": "X046",
+    "name": "Notebook Model 46",
+    "price": "249",
+    "category": [
+      "Stationery",
+      "Paper",
+      "Notebooks"
+    ],
+    "rating": 4.4
+  },
+  {
+    "product_id": "X047",
+    "name": "Frying Pan Model 47",
+    "price": "1349",
+    "category": [
+      "Home",
+      "Kitchen",
+      "Cookware"
+    ],
+    "rating": 4.5
+  },
+  {
+    "product_id": "X048",
+    "name": "Feature Phone Model 48",
+    "price": "1749",
+    "category": [
+      "Electronics",
+      "Mobiles",
+      "Feature Phones"
+    ],
+    "rating": 4.6
+  },
+  {
+    "product_id": "X049",
+    "name": "Wireless Headphones Model 49",
+    "price": "2699",
+    "category": [
+      "Electronics",
+      "Audio",
+      "Headphones"
+    ],
+    "rating": 4.7
+  },
+  {
+    "product_id": "X050",
+    "name": "Budget Smartphone Model 50",
+    "price": "13199",
+    "category": [
+      "Electronics",
+      "Mobiles",
+      "Smartphones"
+    ],
+    "rating": 4.8
+  },
+  {
+    "product_id": "X051",
+    "name": "Cotton T Shirt Model 51",
+    "price": "799",
+    "category": [
+      "Fashion",
+      "Clothing",
+      "T Shirts"
+    ],
+    "rating": 4.9
+  },
+  {
+    "product_id": "X052",
+    "name": "Study Laptop Model 52",
+    "price": "46199",
+    "category": [
+      "Electronics",
+      "Computers",
+      "Laptops"
+    ],
+    "rating": 5.0
+  },
+  {
+    "product_id": "X053",
+    "name": "Steel Bottle Model 53",
+    "price": "599",
+    "category": [
+      "Home",
+      "Kitchen",
+      "Bottles"
+    ],
+    "rating": 2.5
+  },
+  {
+    "product_id": "X054",
+    "name": "Running Shoes Model 54",
+    "price": "2699",
+    "category": [
+      "Fashion",
+      "Footwear",
+      "Sports Shoes"
+    ],
+    "rating": 2.6
+  },
+  {
+    "product_id": "X055",
+    "name": "Bluetooth Speaker Model 55",
+    "price": "1999",
+    "category": [
+      "Electronics",
+      "Audio",
+      "Speakers"
+    ],
+    "rating": 2.7
+  },
+  {
+    "product_id": "X056",
+    "name": "Desk Lamp Model 56",
+    "price": "1099",
+    "category": [
+      "Home",
+      "Lighting",
+      "Desk Lamps"
+    ],
+    "rating": 2.8
+  },
+  {
+    "product_id": "X057",
+    "name": "Gaming Mouse Model 57",
+    "price": "1499",
+    "category": [
+      "Electronics",
+      "Accessories",
+      "Mice"
+    ],
+    "rating": 2.9
+  },
+  {
+    "product_id": "X058",
+    "name": "Notebook Model 58",
+    "price": "299",
+    "category": [
+      "Stationery",
+      "Paper",
+      "Notebooks"
+    ],
+    "rating": 3.0
+  },
+  {
+    "product_id": "X059",
+    "name": "Frying Pan Model 59",
+    "price": "1399",
+    "category": [
+      "Home",
+      "Kitchen",
+      "Cookware"
+    ],
+    "rating": 3.1
+  },
+  {
+    "product_id": "X060",
+    "name": "Feature Phone Model 60",
+    "price": "1799",
+    "category": [
+      "Electronics",
+      "Mobiles",
+      "Feature Phones"
+    ],
+    "rating": 3.2
+  }
+]

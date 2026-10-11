@@ -1,0 +1,1628 @@
+{
+  "dataset": "60 synthetic teaching products; fixed random seed 42",
+  "timing_unit": "median nanoseconds per call, 5 rounds of 100; construction excluded",
+  "searches_10_queries": [
+    {
+      "query": "Bluetooth Speaker Model 07",
+      "linear_ns": 13823.0,
+      "binary_ns": 3690.0
+    },
+    {
+      "query": "Budget Smartphone Model 02",
+      "linear_ns": 13433.0,
+      "binary_ns": 3817.0
+    },
+    {
+      "query": "Cotton T Shirt Model 03",
+      "linear_ns": 23067.0,
+      "binary_ns": 6704.0
+    },
+    {
+      "query": "Desk Lamp Model 08",
+      "linear_ns": 23552.0,
+      "binary_ns": 6517.0
+    },
+    {
+      "query": "Feature Phone Model 12",
+      "linear_ns": 29063.0,
+      "binary_ns": 8407.0
+    },
+    {
+      "query": "Frying Pan Model 11",
+      "linear_ns": 17052.0,
+      "binary_ns": 5151.0
+    },
+    {
+      "query": "Gaming Mouse Model 09",
+      "linear_ns": 40186.0,
+      "binary_ns": 5489.0
+    },
+    {
+      "query": "Running Shoes Model 06",
+      "linear_ns": 38892.0,
+      "binary_ns": 11587.0
+    },
+    {
+      "query": "Wireless Headphones Model 49",
+      "linear_ns": 39501.0,
+      "binary_ns": 10981.0
+    },
+    {
+      "query": "Missing product",
+      "linear_ns": 40210.0,
+      "binary_ns": 5548.0
+    }
+  ],
+  "category_index": {
+    "linear_ns": 14612.0,
+    "dictionary_ns": 881.0
+  },
+  "sorted_20_tree_comparison": {
+    "bst_height": 20,
+    "avl_height": 5,
+    "height_unit": "nodes",
+    "search_depths": [
+      {
+        "price": "0.00",
+        "bst": 1,
+        "avl": 4
+      },
+      {
+        "price": "1.00",
+        "bst": 2,
+        "avl": 3
+      },
+      {
+        "price": "2.00",
+        "bst": 3,
+        "avl": 4
+      },
+      {
+        "price": "3.00",
+        "bst": 4,
+        "avl": 2
+      },
+      {
+        "price": "4.00",
+        "bst": 5,
+        "avl": 4
+      },
+      {
+        "price": "5.00",
+        "bst": 6,
+        "avl": 3
+      },
+      {
+        "price": "6.00",
+        "bst": 7,
+        "avl": 4
+      },
+      {
+        "price": "7.00",
+        "bst": 8,
+        "avl": 1
+      },
+      {
+        "price": "8.00",
+        "bst": 9,
+        "avl": 5
+      },
+      {
+        "price": "9.00",
+        "bst": 10,
+        "avl": 4
+      },
+      {
+        "price": "10.00",
+        "bst": 11,
+        "avl": 5
+      },
+      {
+        "price": "11.00",
+        "bst": 12,
+        "avl": 3
+      },
+      {
+        "price": "12.00",
+        "bst": 13,
+        "avl": 5
+      },
+      {
+        "price": "13.00",
+        "bst": 14,
+        "avl": 4
+      },
+      {
+        "price": "14.00",
+        "bst": 15,
+        "avl": 5
+      },
+      {
+        "price": "15.00",
+        "bst": 16,
+        "avl": 2
+      },
+      {
+        "price": "16.00",
+        "bst": 17,
+        "avl": 4
+      },
+      {
+        "price": "17.00",
+        "bst": 18,
+        "avl": 3
+      },
+      {
+        "price": "18.00",
+        "bst": 19,
+        "avl": 4
+      },
+      {
+        "price": "19.00",
+        "bst": 20,
+        "avl": 5
+      }
+    ]
+  },
+  "heap_insert_arrays": [
+    [
+      "X001"
+    ],
+    [
+      "X001",
+      "X002"
+    ],
+    [
+      "X003",
+      "X002",
+      "X001"
+    ],
+    [
+      "X003",
+      "X002",
+      "X001",
+      "X004"
+    ],
+    [
+      "X005",
+      "X003",
+      "X001",
+      "X004",
+      "X002"
+    ],
+    [
+      "X005",
+      "X003",
+      "X001",
+      "X004",
+      "X002",
+      "X006"
+    ],
+    [
+      "X005",
+      "X003",
+      "X007",
+      "X004",
+      "X002",
+      "X006",
+      "X001"
+    ],
+    [
+      "X005",
+      "X003",
+      "X007",
+      "X008",
+      "X002",
+      "X006",
+      "X001",
+      "X004"
+    ],
+    [
+      "X005",
+      "X003",
+      "X007",
+      "X008",
+      "X002",
+      "X006",
+      "X001",
+      "X004",
+      "X009"
+    ],
+    [
+      "X010",
+      "X005",
+      "X007",
+      "X008",
+      "X003",
+      "X006",
+      "X001",
+      "X004",
+      "X009",
+      "X002"
+    ],
+    [
+      "X010",
+      "X005",
+      "X007",
+      "X008",
+      "X003",
+      "X006",
+      "X001",
+      "X004",
+      "X009",
+      "X002",
+      "X011"
+    ],
+    [
+      "X010",
+      "X005",
+      "X012",
+      "X008",
+      "X003",
+      "X007",
+      "X001",
+      "X004",
+      "X009",
+      "X002",
+      "X011",
+      "X006"
+    ],
+    [
+      "X010",
+      "X005",
+      "X012",
+      "X008",
+      "X003",
+      "X007",
+      "X001",
+      "X004",
+      "X009",
+      "X002",
+      "X011",
+      "X006",
+      "X013"
+    ],
+    [
+      "X010",
+      "X005",
+      "X012",
+      "X008",
+      "X003",
+      "X007",
+      "X001",
+      "X004",
+      "X009",
+      "X002",
+      "X011",
+      "X006",
+      "X013",
+      "X014"
+    ],
+    [
+      "X010",
+      "X005",
+      "X015",
+      "X008",
+      "X003",
+      "X007",
+      "X012",
+      "X004",
+      "X009",
+      "X002",
+      "X011",
+      "X006",
+      "X013",
+      "X014",
+      "X001"
+    ]
+  ],
+  "heap_extract_sorted": [
+    {
+      "id": "X010",
+      "name": "Notebook Model 10",
+      "price": "99.00",
+      "rating": 3.4,
+      "currency": "INR",
+      "category": "Stationery > Paper > Notebooks"
+    },
+    {
+      "id": "X005",
+      "name": "Steel Bottle Model 05",
+      "price": "399.00",
+      "rating": 2.9,
+      "currency": "INR",
+      "category": "Home > Kitchen > Bottles"
+    },
+    {
+      "id": "X003",
+      "name": "Cotton T Shirt Model 03",
+      "price": "599.00",
+      "rating": 2.7,
+      "currency": "INR",
+      "category": "Fashion > Clothing > T Shirts"
+    },
+    {
+      "id": "X015",
+      "name": "Cotton T Shirt Model 15",
+      "price": "649.00",
+      "rating": 3.9,
+      "currency": "INR",
+      "category": "Fashion > Clothing > T Shirts"
+    },
+    {
+      "id": "X008",
+      "name": "Desk Lamp Model 08",
+      "price": "899.00",
+      "rating": 3.2,
+      "currency": "INR",
+      "category": "Home > Lighting > Desk Lamps"
+    },
+    {
+      "id": "X011",
+      "name": "Frying Pan Model 11",
+      "price": "1199.00",
+      "rating": 3.5,
+      "currency": "INR",
+      "category": "Home > Kitchen > Cookware"
+    },
+    {
+      "id": "X009",
+      "name": "Gaming Mouse Model 09",
+      "price": "1299.00",
+      "rating": 3.3,
+      "currency": "INR",
+      "category": "Electronics > Accessories > Mice"
+    },
+    {
+      "id": "X012",
+      "name": "Feature Phone Model 12",
+      "price": "1599.00",
+      "rating": 3.6,
+      "currency": "INR",
+      "category": "Electronics > Mobiles > Feature Phones"
+    },
+    {
+      "id": "X007",
+      "name": "Bluetooth Speaker Model 07",
+      "price": "1799.00",
+      "rating": 3.1,
+      "currency": "INR",
+      "category": "Electronics > Audio > Speakers"
+    },
+    {
+      "id": "X001",
+      "name": "Wireless Headphones Model 01",
+      "price": "2499.00",
+      "rating": 2.5,
+      "currency": "INR",
+      "category": "Electronics > Audio > Headphones"
+    },
+    {
+      "id": "X006",
+      "name": "Running Shoes Model 06",
+      "price": "2499.00",
+      "rating": 3.0,
+      "currency": "INR",
+      "category": "Fashion > Footwear > Sports Shoes"
+    },
+    {
+      "id": "X013",
+      "name": "Wireless Headphones Model 13",
+      "price": "2549.00",
+      "rating": 3.7,
+      "currency": "INR",
+      "category": "Electronics > Audio > Headphones"
+    },
+    {
+      "id": "X002",
+      "name": "Budget Smartphone Model 02",
+      "price": "12999.00",
+      "rating": 2.6,
+      "currency": "INR",
+      "category": "Electronics > Mobiles > Smartphones"
+    },
+    {
+      "id": "X014",
+      "name": "Budget Smartphone Model 14",
+      "price": "13049.00",
+      "rating": 3.8,
+      "currency": "INR",
+      "category": "Electronics > Mobiles > Smartphones"
+    },
+    {
+      "id": "X004",
+      "name": "Study Laptop Model 04",
+      "price": "45999.00",
+      "rating": 2.8,
+      "currency": "INR",
+      "category": "Electronics > Computers > Laptops"
+    }
+  ],
+  "rating_max_heap": [
+    {
+      "id": "X015",
+      "name": "Cotton T Shirt Model 15",
+      "price": "649.00",
+      "rating": 3.9,
+      "currency": "INR",
+      "category": "Fashion > Clothing > T Shirts"
+    },
+    {
+      "id": "X014",
+      "name": "Budget Smartphone Model 14",
+      "price": "13049.00",
+      "rating": 3.8,
+      "currency": "INR",
+      "category": "Electronics > Mobiles > Smartphones"
+    },
+    {
+      "id": "X013",
+      "name": "Wireless Headphones Model 13",
+      "price": "2549.00",
+      "rating": 3.7,
+      "currency": "INR",
+      "category": "Electronics > Audio > Headphones"
+    },
+    {
+      "id": "X012",
+      "name": "Feature Phone Model 12",
+      "price": "1599.00",
+      "rating": 3.6,
+      "currency": "INR",
+      "category": "Electronics > Mobiles > Feature Phones"
+    },
+    {
+      "id": "X011",
+      "name": "Frying Pan Model 11",
+      "price": "1199.00",
+      "rating": 3.5,
+      "currency": "INR",
+      "category": "Home > Kitchen > Cookware"
+    },
+    {
+      "id": "X010",
+      "name": "Notebook Model 10",
+      "price": "99.00",
+      "rating": 3.4,
+      "currency": "INR",
+      "category": "Stationery > Paper > Notebooks"
+    },
+    {
+      "id": "X009",
+      "name": "Gaming Mouse Model 09",
+      "price": "1299.00",
+      "rating": 3.3,
+      "currency": "INR",
+      "category": "Electronics > Accessories > Mice"
+    },
+    {
+      "id": "X008",
+      "name": "Desk Lamp Model 08",
+      "price": "899.00",
+      "rating": 3.2,
+      "currency": "INR",
+      "category": "Home > Lighting > Desk Lamps"
+    },
+    {
+      "id": "X007",
+      "name": "Bluetooth Speaker Model 07",
+      "price": "1799.00",
+      "rating": 3.1,
+      "currency": "INR",
+      "category": "Electronics > Audio > Speakers"
+    },
+    {
+      "id": "X006",
+      "name": "Running Shoes Model 06",
+      "price": "2499.00",
+      "rating": 3.0,
+      "currency": "INR",
+      "category": "Fashion > Footwear > Sports Shoes"
+    },
+    {
+      "id": "X005",
+      "name": "Steel Bottle Model 05",
+      "price": "399.00",
+      "rating": 2.9,
+      "currency": "INR",
+      "category": "Home > Kitchen > Bottles"
+    },
+    {
+      "id": "X004",
+      "name": "Study Laptop Model 04",
+      "price": "45999.00",
+      "rating": 2.8,
+      "currency": "INR",
+      "category": "Electronics > Computers > Laptops"
+    },
+    {
+      "id": "X003",
+      "name": "Cotton T Shirt Model 03",
+      "price": "599.00",
+      "rating": 2.7,
+      "currency": "INR",
+      "category": "Fashion > Clothing > T Shirts"
+    },
+    {
+      "id": "X002",
+      "name": "Budget Smartphone Model 02",
+      "price": "12999.00",
+      "rating": 2.6,
+      "currency": "INR",
+      "category": "Electronics > Mobiles > Smartphones"
+    },
+    {
+      "id": "X001",
+      "name": "Wireless Headphones Model 01",
+      "price": "2499.00",
+      "rating": 2.5,
+      "currency": "INR",
+      "category": "Electronics > Audio > Headphones"
+    }
+  ],
+  "orders_10": [
+    {
+      "order_id": "O10",
+      "deadline": "2026-10-11T12:00:00"
+    },
+    {
+      "order_id": "O09",
+      "deadline": "2026-10-12T12:00:00"
+    },
+    {
+      "order_id": "O08",
+      "deadline": "2026-10-13T12:00:00"
+    },
+    {
+      "order_id": "O07",
+      "deadline": "2026-10-14T12:00:00"
+    },
+    {
+      "order_id": "O06",
+      "deadline": "2026-10-15T12:00:00"
+    },
+    {
+      "order_id": "O05",
+      "deadline": "2026-10-16T12:00:00"
+    },
+    {
+      "order_id": "O04",
+      "deadline": "2026-10-17T12:00:00"
+    },
+    {
+      "order_id": "O03",
+      "deadline": "2026-10-18T12:00:00"
+    },
+    {
+      "order_id": "O02",
+      "deadline": "2026-10-19T12:00:00"
+    },
+    {
+      "order_id": "O01",
+      "deadline": "2026-10-20T12:00:00"
+    }
+  ],
+  "hash_collisions": [
+    {
+      "strategy": "ChainingHash",
+      "capacity": 23,
+      "products": 20,
+      "load_factor": 0.8695652173913043,
+      "collisions": 5,
+      "collisions_per_insert": 0.25
+    },
+    {
+      "strategy": "ProbingHash",
+      "capacity": 23,
+      "products": 20,
+      "load_factor": 0.8695652173913043,
+      "collisions": 10,
+      "collisions_per_insert": 0.5
+    },
+    {
+      "strategy": "ChainingHash",
+      "capacity": 31,
+      "products": 20,
+      "load_factor": 0.6451612903225806,
+      "collisions": 10,
+      "collisions_per_insert": 0.5
+    },
+    {
+      "strategy": "ProbingHash",
+      "capacity": 31,
+      "products": 20,
+      "load_factor": 0.6451612903225806,
+      "collisions": 100,
+      "collisions_per_insert": 5.0
+    },
+    {
+      "strategy": "ChainingHash",
+      "capacity": 53,
+      "products": 20,
+      "load_factor": 0.37735849056603776,
+      "collisions": 4,
+      "collisions_per_insert": 0.2
+    },
+    {
+      "strategy": "ProbingHash",
+      "capacity": 53,
+      "products": 20,
+      "load_factor": 0.37735849056603776,
+      "collisions": 6,
+      "collisions_per_insert": 0.3
+    }
+  ],
+  "graph_adjacency": {
+    "u:U01": {
+      "p:X001": 1,
+      "p:X002": 2,
+      "p:X005": 5
+    },
+    "p:X001": {
+      "u:U01": 1
+    },
+    "p:X002": {
+      "u:U01": 2,
+      "u:U02": 1
+    },
+    "p:X005": {
+      "u:U01": 5,
+      "u:U04": 2,
+      "u:U05": 1
+    },
+    "u:U02": {
+      "p:X002": 1,
+      "p:X003": 2,
+      "p:X006": 5
+    },
+    "p:X003": {
+      "u:U02": 2,
+      "u:U03": 1
+    },
+    "p:X006": {
+      "u:U02": 5,
+      "u:U05": 2,
+      "u:U06": 1
+    },
+    "u:U03": {
+      "p:X003": 1,
+      "p:X004": 2,
+      "p:X007": 5
+    },
+    "p:X004": {
+      "u:U03": 2,
+      "u:U04": 1
+    },
+    "p:X007": {
+      "u:U03": 5,
+      "u:U06": 2,
+      "u:U07": 1
+    },
+    "u:U04": {
+      "p:X004": 1,
+      "p:X005": 2,
+      "p:X008": 5
+    },
+    "p:X008": {
+      "u:U04": 5,
+      "u:U07": 2,
+      "u:U08": 1
+    },
+    "u:U05": {
+      "p:X005": 1,
+      "p:X006": 2,
+      "p:X009": 5
+    },
+    "p:X009": {
+      "u:U05": 5,
+      "u:U08": 2
+    },
+    "u:U06": {
+      "p:X006": 1,
+      "p:X007": 2,
+      "p:X010": 5
+    },
+    "p:X010": {
+      "u:U06": 5
+    },
+    "u:U07": {
+      "p:X007": 1,
+      "p:X008": 2,
+      "p:X011": 5
+    },
+    "p:X011": {
+      "u:U07": 5
+    },
+    "u:U08": {
+      "p:X008": 1,
+      "p:X009": 2,
+      "p:X012": 5
+    },
+    "p:X012": {
+      "u:U08": 5
+    }
+  },
+  "bfs_product_2_hops": [
+    [
+      "p:X001",
+      0
+    ],
+    [
+      "u:U01",
+      1
+    ],
+    [
+      "p:X002",
+      2
+    ],
+    [
+      "p:X005",
+      2
+    ]
+  ],
+  "dfs_user": [
+    "u:U01",
+    "p:X001",
+    "p:X002",
+    "u:U02",
+    "p:X003",
+    "u:U03",
+    "p:X004",
+    "u:U04",
+    "p:X005",
+    "u:U05",
+    "p:X006",
+    "u:U06",
+    "p:X007",
+    "u:U07",
+    "p:X008",
+    "u:U08",
+    "p:X009",
+    "p:X012",
+    "p:X011",
+    "p:X010"
+  ],
+  "recommendations": [
+    {
+      "product_id": "X002",
+      "score": 1.0,
+      "reason": "Sum of minimum edge weights along paths of at most 2 hops"
+    },
+    {
+      "product_id": "X005",
+      "score": 1.0,
+      "reason": "Sum of minimum edge weights along paths of at most 2 hops"
+    }
+  ],
+  "heuristic_search": [
+    {
+      "method": "bfs",
+      "results": [
+        {
+          "product_id": "X001",
+          "name": "Wireless Headphones Model 01",
+          "penalty": 0.1502,
+          "path_cost": 4.1502
+        },
+        {
+          "product_id": "X013",
+          "name": "Wireless Headphones Model 13",
+          "penalty": 0.0878,
+          "path_cost": 4.0878
+        },
+        {
+          "product_id": "X025",
+          "name": "Wireless Headphones Model 25",
+          "penalty": 0.025799999999999972,
+          "path_cost": 4.0258
+        },
+        {
+          "product_id": "X037",
+          "name": "Wireless Headphones Model 37",
+          "penalty": 0.11980000000000002,
+          "path_cost": 4.1198
+        },
+        {
+          "product_id": "X049",
+          "name": "Wireless Headphones Model 49",
+          "penalty": 0.05779999999999998,
+          "path_cost": 4.0578
+        }
+      ],
+      "expanded": 31,
+      "trace": [
+        {
+          "state": "Catalog",
+          "g": 0,
+          "h": 0.025799999999999972
+        },
+        {
+          "state": "Electronics",
+          "g": 1,
+          "h": 0.025799999999999972
+        },
+        {
+          "state": "Fashion",
+          "g": 1,
+          "h": 0.2578
+        },
+        {
+          "state": "Home",
+          "g": 1,
+          "h": 0.4602
+        },
+        {
+          "state": "Stationery",
+          "g": 1,
+          "h": 0.6861999999999999
+        },
+        {
+          "state": "Electronics / Audio",
+          "g": 2,
+          "h": 0.025799999999999972
+        },
+        {
+          "state": "Electronics / Mobiles",
+          "g": 2,
+          "h": 0.17420000000000002
+        },
+        {
+          "state": "Electronics / Computers",
+          "g": 2,
+          "h": 0.5
+        },
+        {
+          "state": "Electronics / Accessories",
+          "g": 2,
+          "h": 0.2522
+        },
+        {
+          "state": "Fashion / Clothing",
+          "g": 2,
+          "h": 0.5462
+        },
+        {
+          "state": "Fashion / Footwear",
+          "g": 2,
+          "h": 0.2578
+        },
+        {
+          "state": "Home / Kitchen",
+          "g": 2,
+          "h": 0.4602
+        },
+        {
+          "state": "Home / Lighting",
+          "g": 2,
+          "h": 0.5382
+        },
+        {
+          "state": "Stationery / Paper",
+          "g": 2,
+          "h": 0.6861999999999999
+        },
+        {
+          "state": "Electronics / Audio / Headphones",
+          "g": 3,
+          "h": 0.025799999999999972
+        },
+        {
+          "state": "Electronics / Audio / Speakers",
+          "g": 3,
+          "h": 0.1642
+        },
+        {
+          "state": "Electronics / Mobiles / Smartphones",
+          "g": 3,
+          "h": 0.5
+        },
+        {
+          "state": "Electronics / Mobiles / Feature Phones",
+          "g": 3,
+          "h": 0.17420000000000002
+        },
+        {
+          "state": "Electronics / Computers / Laptops",
+          "g": 3,
+          "h": 0.5
+        },
+        {
+          "state": "Electronics / Accessories / Mice",
+          "g": 3,
+          "h": 0.2522
+        },
+        {
+          "state": "Fashion / Clothing / T Shirts",
+          "g": 3,
+          "h": 0.5462
+        },
+        {
+          "state": "Fashion / Footwear / Sports Shoes",
+          "g": 3,
+          "h": 0.2578
+        },
+        {
+          "state": "Home / Kitchen / Bottles",
+          "g": 3,
+          "h": 0.6562
+        },
+        {
+          "state": "Home / Kitchen / Cookware",
+          "g": 3,
+          "h": 0.4602
+        },
+        {
+          "state": "Home / Lighting / Desk Lamps",
+          "g": 3,
+          "h": 0.5382
+        },
+        {
+          "state": "Stationery / Paper / Notebooks",
+          "g": 3,
+          "h": 0.6861999999999999
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X001",
+          "g": 4.1502,
+          "h": 0
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X013",
+          "g": 4.0878,
+          "h": 0
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X025",
+          "g": 4.0258,
+          "h": 0
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X037",
+          "g": 4.1198,
+          "h": 0
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X049",
+          "g": 4.0578,
+          "h": 0
+        }
+      ],
+      "preprocessed_products": 60
+    },
+    {
+      "method": "greedy",
+      "results": [
+        {
+          "product_id": "X025",
+          "name": "Wireless Headphones Model 25",
+          "penalty": 0.025799999999999972,
+          "path_cost": 4.0258
+        },
+        {
+          "product_id": "X049",
+          "name": "Wireless Headphones Model 49",
+          "penalty": 0.05779999999999998,
+          "path_cost": 4.0578
+        },
+        {
+          "product_id": "X013",
+          "name": "Wireless Headphones Model 13",
+          "penalty": 0.0878,
+          "path_cost": 4.0878
+        },
+        {
+          "product_id": "X037",
+          "name": "Wireless Headphones Model 37",
+          "penalty": 0.11980000000000002,
+          "path_cost": 4.1198
+        },
+        {
+          "product_id": "X001",
+          "name": "Wireless Headphones Model 01",
+          "penalty": 0.1502,
+          "path_cost": 4.1502
+        }
+      ],
+      "expanded": 9,
+      "trace": [
+        {
+          "state": "Catalog",
+          "g": 0,
+          "h": 0.025799999999999972
+        },
+        {
+          "state": "Electronics",
+          "g": 1,
+          "h": 0.025799999999999972
+        },
+        {
+          "state": "Electronics / Audio",
+          "g": 2,
+          "h": 0.025799999999999972
+        },
+        {
+          "state": "Electronics / Audio / Headphones",
+          "g": 3,
+          "h": 0.025799999999999972
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X025",
+          "g": 4.0258,
+          "h": 0
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X049",
+          "g": 4.0578,
+          "h": 0
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X013",
+          "g": 4.0878,
+          "h": 0
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X037",
+          "g": 4.1198,
+          "h": 0
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X001",
+          "g": 4.1502,
+          "h": 0
+        }
+      ],
+      "preprocessed_products": 60
+    },
+    {
+      "method": "astar",
+      "results": [
+        {
+          "product_id": "X025",
+          "name": "Wireless Headphones Model 25",
+          "penalty": 0.025799999999999972,
+          "path_cost": 4.0258
+        },
+        {
+          "product_id": "X049",
+          "name": "Wireless Headphones Model 49",
+          "penalty": 0.05779999999999998,
+          "path_cost": 4.0578
+        },
+        {
+          "product_id": "X013",
+          "name": "Wireless Headphones Model 13",
+          "penalty": 0.0878,
+          "path_cost": 4.0878
+        },
+        {
+          "product_id": "X037",
+          "name": "Wireless Headphones Model 37",
+          "penalty": 0.11980000000000002,
+          "path_cost": 4.1198
+        },
+        {
+          "product_id": "X001",
+          "name": "Wireless Headphones Model 01",
+          "penalty": 0.1502,
+          "path_cost": 4.1502
+        }
+      ],
+      "expanded": 31,
+      "trace": [
+        {
+          "state": "Catalog",
+          "g": 0,
+          "h": 0.025799999999999972
+        },
+        {
+          "state": "Electronics",
+          "g": 1,
+          "h": 0.025799999999999972
+        },
+        {
+          "state": "Fashion",
+          "g": 1,
+          "h": 0.2578
+        },
+        {
+          "state": "Home",
+          "g": 1,
+          "h": 0.4602
+        },
+        {
+          "state": "Stationery",
+          "g": 1,
+          "h": 0.6861999999999999
+        },
+        {
+          "state": "Electronics / Audio",
+          "g": 2,
+          "h": 0.025799999999999972
+        },
+        {
+          "state": "Electronics / Mobiles",
+          "g": 2,
+          "h": 0.17420000000000002
+        },
+        {
+          "state": "Electronics / Accessories",
+          "g": 2,
+          "h": 0.2522
+        },
+        {
+          "state": "Fashion / Footwear",
+          "g": 2,
+          "h": 0.2578
+        },
+        {
+          "state": "Home / Kitchen",
+          "g": 2,
+          "h": 0.4602
+        },
+        {
+          "state": "Electronics / Computers",
+          "g": 2,
+          "h": 0.5
+        },
+        {
+          "state": "Home / Lighting",
+          "g": 2,
+          "h": 0.5382
+        },
+        {
+          "state": "Fashion / Clothing",
+          "g": 2,
+          "h": 0.5462
+        },
+        {
+          "state": "Stationery / Paper",
+          "g": 2,
+          "h": 0.6861999999999999
+        },
+        {
+          "state": "Electronics / Audio / Headphones",
+          "g": 3,
+          "h": 0.025799999999999972
+        },
+        {
+          "state": "Electronics / Audio / Speakers",
+          "g": 3,
+          "h": 0.1642
+        },
+        {
+          "state": "Electronics / Mobiles / Feature Phones",
+          "g": 3,
+          "h": 0.17420000000000002
+        },
+        {
+          "state": "Electronics / Accessories / Mice",
+          "g": 3,
+          "h": 0.2522
+        },
+        {
+          "state": "Fashion / Footwear / Sports Shoes",
+          "g": 3,
+          "h": 0.2578
+        },
+        {
+          "state": "Home / Kitchen / Cookware",
+          "g": 3,
+          "h": 0.4602
+        },
+        {
+          "state": "Electronics / Mobiles / Smartphones",
+          "g": 3,
+          "h": 0.5
+        },
+        {
+          "state": "Electronics / Computers / Laptops",
+          "g": 3,
+          "h": 0.5
+        },
+        {
+          "state": "Home / Lighting / Desk Lamps",
+          "g": 3,
+          "h": 0.5382
+        },
+        {
+          "state": "Fashion / Clothing / T Shirts",
+          "g": 3,
+          "h": 0.5462
+        },
+        {
+          "state": "Home / Kitchen / Bottles",
+          "g": 3,
+          "h": 0.6562
+        },
+        {
+          "state": "Stationery / Paper / Notebooks",
+          "g": 3,
+          "h": 0.6861999999999999
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X025",
+          "g": 4.0258,
+          "h": 0
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X049",
+          "g": 4.0578,
+          "h": 0
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X013",
+          "g": 4.0878,
+          "h": 0
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X037",
+          "g": 4.1198,
+          "h": 0
+        },
+        {
+          "state": "Electronics / Audio / Headphones / ID:X001",
+          "g": 4.1502,
+          "h": 0
+        }
+      ],
+      "preprocessed_products": 60
+    }
+  ],
+  "random_baseline": [
+    "X039",
+    "X024",
+    "X055",
+    "X012",
+    "X017"
+  ],
+  "semantic_network_15": [
+    [
+      "Wireless Headphones Model 01",
+      "is-a",
+      "Headphones"
+    ],
+    [
+      "Wireless Headphones Model 01",
+      "has-part",
+      "Component 1"
+    ],
+    [
+      "Wireless Headphones Model 01",
+      "used-with",
+      "Budget Smartphone Model 02"
+    ],
+    [
+      "Wireless Headphones Model 01",
+      "similar-to",
+      "Cotton T Shirt Model 03"
+    ],
+    [
+      "Budget Smartphone Model 02",
+      "is-a",
+      "Smartphones"
+    ],
+    [
+      "Budget Smartphone Model 02",
+      "has-part",
+      "Component 2"
+    ],
+    [
+      "Budget Smartphone Model 02",
+      "used-with",
+      "Cotton T Shirt Model 03"
+    ],
+    [
+      "Budget Smartphone Model 02",
+      "similar-to",
+      "Study Laptop Model 04"
+    ],
+    [
+      "Cotton T Shirt Model 03",
+      "is-a",
+      "T Shirts"
+    ],
+    [
+      "Cotton T Shirt Model 03",
+      "has-part",
+      "Component 3"
+    ],
+    [
+      "Cotton T Shirt Model 03",
+      "used-with",
+      "Study Laptop Model 04"
+    ],
+    [
+      "Cotton T Shirt Model 03",
+      "similar-to",
+      "Steel Bottle Model 05"
+    ],
+    [
+      "Study Laptop Model 04",
+      "is-a",
+      "Laptops"
+    ],
+    [
+      "Study Laptop Model 04",
+      "has-part",
+      "Component 4"
+    ],
+    [
+      "Study Laptop Model 04",
+      "used-with",
+      "Steel Bottle Model 05"
+    ],
+    [
+      "Study Laptop Model 04",
+      "similar-to",
+      "Running Shoes Model 06"
+    ],
+    [
+      "Steel Bottle Model 05",
+      "is-a",
+      "Bottles"
+    ],
+    [
+      "Steel Bottle Model 05",
+      "has-part",
+      "Component 5"
+    ],
+    [
+      "Steel Bottle Model 05",
+      "used-with",
+      "Running Shoes Model 06"
+    ],
+    [
+      "Steel Bottle Model 05",
+      "similar-to",
+      "Bluetooth Speaker Model 07"
+    ],
+    [
+      "Running Shoes Model 06",
+      "is-a",
+      "Sports Shoes"
+    ],
+    [
+      "Running Shoes Model 06",
+      "has-part",
+      "Component 6"
+    ],
+    [
+      "Running Shoes Model 06",
+      "used-with",
+      "Bluetooth Speaker Model 07"
+    ],
+    [
+      "Running Shoes Model 06",
+      "similar-to",
+      "Desk Lamp Model 08"
+    ],
+    [
+      "Bluetooth Speaker Model 07",
+      "is-a",
+      "Speakers"
+    ],
+    [
+      "Bluetooth Speaker Model 07",
+      "has-part",
+      "Component 7"
+    ],
+    [
+      "Bluetooth Speaker Model 07",
+      "used-with",
+      "Desk Lamp Model 08"
+    ],
+    [
+      "Bluetooth Speaker Model 07",
+      "similar-to",
+      "Gaming Mouse Model 09"
+    ],
+    [
+      "Desk Lamp Model 08",
+      "is-a",
+      "Desk Lamps"
+    ],
+    [
+      "Desk Lamp Model 08",
+      "has-part",
+      "Component 8"
+    ],
+    [
+      "Desk Lamp Model 08",
+      "used-with",
+      "Gaming Mouse Model 09"
+    ],
+    [
+      "Desk Lamp Model 08",
+      "similar-to",
+      "Notebook Model 10"
+    ],
+    [
+      "Gaming Mouse Model 09",
+      "is-a",
+      "Mice"
+    ],
+    [
+      "Gaming Mouse Model 09",
+      "has-part",
+      "Component 9"
+    ],
+    [
+      "Gaming Mouse Model 09",
+      "used-with",
+      "Notebook Model 10"
+    ],
+    [
+      "Gaming Mouse Model 09",
+      "similar-to",
+      "Frying Pan Model 11"
+    ],
+    [
+      "Notebook Model 10",
+      "is-a",
+      "Notebooks"
+    ],
+    [
+      "Notebook Model 10",
+      "has-part",
+      "Component 10"
+    ],
+    [
+      "Notebook Model 10",
+      "used-with",
+      "Frying Pan Model 11"
+    ],
+    [
+      "Notebook Model 10",
+      "similar-to",
+      "Feature Phone Model 12"
+    ],
+    [
+      "Frying Pan Model 11",
+      "is-a",
+      "Cookware"
+    ],
+    [
+      "Frying Pan Model 11",
+      "has-part",
+      "Component 11"
+    ],
+    [
+      "Frying Pan Model 11",
+      "used-with",
+      "Feature Phone Model 12"
+    ],
+    [
+      "Frying Pan Model 11",
+      "similar-to",
+      "Wireless Headphones Model 13"
+    ],
+    [
+      "Feature Phone Model 12",
+      "is-a",
+      "Feature Phones"
+    ],
+    [
+      "Feature Phone Model 12",
+      "has-part",
+      "Component 12"
+    ],
+    [
+      "Feature Phone Model 12",
+      "used-with",
+      "Wireless Headphones Model 13"
+    ],
+    [
+      "Feature Phone Model 12",
+      "similar-to",
+      "Budget Smartphone Model 14"
+    ],
+    [
+      "Wireless Headphones Model 13",
+      "is-a",
+      "Headphones"
+    ],
+    [
+      "Wireless Headphones Model 13",
+      "has-part",
+      "Component 13"
+    ],
+    [
+      "Wireless Headphones Model 13",
+      "used-with",
+      "Budget Smartphone Model 14"
+    ],
+    [
+      "Wireless Headphones Model 13",
+      "similar-to",
+      "Cotton T Shirt Model 15"
+    ],
+    [
+      "Budget Smartphone Model 14",
+      "is-a",
+      "Smartphones"
+    ],
+    [
+      "Budget Smartphone Model 14",
+      "has-part",
+      "Component 14"
+    ],
+    [
+      "Budget Smartphone Model 14",
+      "used-with",
+      "Cotton T Shirt Model 15"
+    ],
+    [
+      "Budget Smartphone Model 14",
+      "similar-to",
+      "Wireless Headphones Model 01"
+    ],
+    [
+      "Cotton T Shirt Model 15",
+      "is-a",
+      "T Shirts"
+    ],
+    [
+      "Cotton T Shirt Model 15",
+      "has-part",
+      "Component 15"
+    ],
+    [
+      "Cotton T Shirt Model 15",
+      "used-with",
+      "Wireless Headphones Model 01"
+    ],
+    [
+      "Cotton T Shirt Model 15",
+      "similar-to",
+      "Budget Smartphone Model 02"
+    ]
+  ],
+  "frame_examples": {
+    "Laptop": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "Running Shoes": {
+      "size": 8,
+      "material": "mesh"
+    },
+    "Cookware": {
+      "capacity_l": 1.0,
+      "material": "steel"
+    }
+  },
+  "discount": {
+    "total": "25998.00",
+    "currency": "INR",
+    "applicable": [
+      {
+        "name": "Large cart",
+        "priority": 100,
+        "percent": 15,
+        "why": "Cart total >= 10000"
+      },
+      {
+        "name": "Electronics",
+        "priority": 90,
+        "percent": 10,
+        "why": "Total > 1000 and Electronics"
+      },
+      {
+        "name": "New customer",
+        "priority": 70,
+        "percent": 5,
+        "why": "New customer flag"
+      },
+      {
+        "name": "SAVE5 coupon",
+        "priority": 30,
+        "percent": 5,
+        "why": "Coupon matches SAVE5"
+      }
+    ],
+    "applied": "Large cart",
+    "discount": "3899.70",
+    "payable": "22098.30",
+    "policy": "Highest priority only; no stacking"
+  }
+}

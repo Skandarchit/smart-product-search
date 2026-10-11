@@ -1,0 +1,3 @@
+The leading inferred category by retained positive sales value is Home > General > Gifts; investigate its stock needs within this subset.
+The median retained product price is GBP 2.46; use it to choose useful demonstration price filters.
+Ratings are deterministic synthetic teaching values: the scatter cannot support customer-satisfaction or pricing conclusions.

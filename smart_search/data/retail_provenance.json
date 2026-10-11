@@ -1,0 +1,23 @@
+{
+  "source": "Chen, D. (2015). Online Retail. UCI Machine Learning Repository. https://doi.org/10.24432/C5BW33",
+  "license": "CC BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+  "download": "https://archive.ics.uci.edu/static/public/352/online+retail.zip",
+  "zip_sha256": "f5385cbb54bbebf7196389109c6b0621faab0c304e3702548165e71c84aede8b",
+  "transformations": [
+    "First 1000 valid product stock codes in source order; all positive sales lines for those codes retained",
+    "Cancellations, non-positive prices/quantities, missing names and non-numeric-leading codes excluded",
+    "Last observed retained description and price per code; catalogue prices rounded to two decimals",
+    "Categories inferred using keyword rules, not supplied by retailer",
+    "Ratings generated deterministically for teaching, not customer feedback",
+    "Graph uses eight active users among first 100 observed users, with anonymized IDs and purchase-line-count weights",
+    "Sales use historical transaction unit prices, not current catalog prices; totals exclude returns and are not net revenue"
+  ],
+  "audit": {
+    "source_rows": 541909,
+    "excluded_invalid_return_or_non_product": 14184,
+    "retained_products": 1000,
+    "retained_sales_lines": 275602,
+    "graph_users": 8,
+    "graph_edges": 3069
+  }
+}
